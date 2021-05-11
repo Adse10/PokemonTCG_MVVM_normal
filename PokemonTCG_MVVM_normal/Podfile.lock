@@ -1,0 +1,68 @@
+PODS:
+  - ImageViewer (0.1.4)
+  - Realm (10.7.3):
+    - Realm/Headers (= 10.7.3)
+  - Realm/Headers (10.7.3)
+  - RealmSwift (10.7.3):
+    - Realm (= 10.7.3)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+
+DEPENDENCIES:
+  - ImageViewer (from `https://github.com/tovkal/ImageViewer`)
+  - RealmSwift
+  - SDWebImage (~> 5.0)
+  - SwifterSwift
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SwifterSwift
+
+EXTERNAL SOURCES:
+  ImageViewer:
+    :git: https://github.com/tovkal/ImageViewer
+
+CHECKOUT OPTIONS:
+  ImageViewer:
+    :commit: 76944a7b1192d1a0af6767f33804a69bd2d9e743
+    :git: https://github.com/tovkal/ImageViewer
+
+SPEC CHECKSUMS:
+  ImageViewer: 0c79f53859883f4215b0ceeac4c7e4d3caede8a3
+  Realm: 472ea9ad72cee02df140dfd2926f482df6addbd2
+  RealmSwift: 7462f44bc04b61505ef70e4863ee7ce48fa12ede
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+
+PODFILE CHECKSUM: da844f4de4cc501146b569ca7f21fa71fbb7d7ce
+
+COCOAPODS: 1.10.0

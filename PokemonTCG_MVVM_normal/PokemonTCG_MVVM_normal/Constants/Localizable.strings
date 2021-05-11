@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  PokemonTCG
+
+  Created by Adrián Bolaños Ríos on 24/04/2021.
+  
+*/
+
+"name" = "Nombre";
+"supertype" = "Supertipo";
+"subtypes" = "Subtipos";
+"types" = "Tipos";
+"hp" = "HP";
+"all.cards" = "Todas las cartas";
+"favourite" = "Hacer favorita";
+"is.favourite" = "Ya es favorita";
+"all.sets" = "Todos los sets";
+"release.date" = "Fecha de lanzamiento";
+"other.data" = "Otro dato";

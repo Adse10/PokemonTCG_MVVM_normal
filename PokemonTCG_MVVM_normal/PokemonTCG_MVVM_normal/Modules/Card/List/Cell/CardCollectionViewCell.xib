@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CardCollectionViewCell" customModule="PokemonTCG_MVVM_normal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="194" height="206"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="194" height="206"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qaW-xd-JM2">
+                        <rect key="frame" x="0.0" y="0.0" width="194" height="206"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BtI-1h-uua">
+                                <rect key="frame" x="0.0" y="0.0" width="194" height="206"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="BtI-1h-uua" secondAttribute="bottom" id="1vf-5O-bBz"/>
+                            <constraint firstItem="BtI-1h-uua" firstAttribute="top" secondItem="qaW-xd-JM2" secondAttribute="top" id="CVq-0i-rUZ"/>
+                            <constraint firstItem="BtI-1h-uua" firstAttribute="leading" secondItem="qaW-xd-JM2" secondAttribute="leading" id="bmC-ug-asE"/>
+                            <constraint firstAttribute="trailing" secondItem="BtI-1h-uua" secondAttribute="trailing" id="uI1-uR-tKQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="qaW-xd-JM2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5DX-BS-vgc"/>
+                <constraint firstAttribute="trailing" secondItem="qaW-xd-JM2" secondAttribute="trailing" id="SBz-Im-a4k"/>
+                <constraint firstItem="qaW-xd-JM2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Tbn-NE-CNN"/>
+                <constraint firstAttribute="bottom" secondItem="qaW-xd-JM2" secondAttribute="bottom" id="VKV-hj-q8Y"/>
+            </constraints>
+            <size key="customSize" width="194" height="206"/>
+            <connections>
+                <outlet property="imgCard" destination="BtI-1h-uua" id="dtS-uz-AoQ"/>
+            </connections>
+            <point key="canvasLocation" x="244.92753623188409" y="156.69642857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CardSetTableViewCell" customModule="PokemonTCG_MVVM_normal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="atc-Ge-jLH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Bd-M2-yoH">
+                                <rect key="frame" x="16" y="2" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Gb1-mM-kpV"/>
+                                    <constraint firstAttribute="height" constant="40" id="Mnr-pv-Pi7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQx-uB-UWG">
+                                <rect key="frame" x="72" y="11.5" width="232" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fQx-uB-UWG" firstAttribute="leading" secondItem="2Bd-M2-yoH" secondAttribute="trailing" constant="16" id="3qX-5C-cMm"/>
+                            <constraint firstAttribute="trailing" secondItem="fQx-uB-UWG" secondAttribute="trailing" constant="16" id="B4q-32-HXx"/>
+                            <constraint firstItem="2Bd-M2-yoH" firstAttribute="leading" secondItem="atc-Ge-jLH" secondAttribute="leading" constant="16" id="BiD-QR-3uC"/>
+                            <constraint firstItem="fQx-uB-UWG" firstAttribute="centerY" secondItem="atc-Ge-jLH" secondAttribute="centerY" id="Nec-r7-Gwp"/>
+                            <constraint firstItem="2Bd-M2-yoH" firstAttribute="centerY" secondItem="atc-Ge-jLH" secondAttribute="centerY" id="pxS-Zz-VMl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="atc-Ge-jLH" secondAttribute="trailing" id="ISZ-UT-Frf"/>
+                    <constraint firstItem="atc-Ge-jLH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="NUc-hD-5rr"/>
+                    <constraint firstItem="atc-Ge-jLH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dnb-Mx-Ml0"/>
+                    <constraint firstAttribute="bottom" secondItem="atc-Ge-jLH" secondAttribute="bottom" id="eQ3-8w-81R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgCardSet" destination="2Bd-M2-yoH" id="hAe-gl-2d8"/>
+                <outlet property="lbName" destination="fQx-uB-UWG" id="JJO-Yr-xXO"/>
+            </connections>
+            <point key="canvasLocation" x="-39" y="105"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
